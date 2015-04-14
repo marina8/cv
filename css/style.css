@@ -1,0 +1,82 @@
+body {
+	background: url(../img/02.jpg) repeat;
+	font: 16px Tahoma, sans-serif;
+	color: #323232;
+	line-height: 1.5;
+}
+.wrap{
+	width: 690px;
+	margin: auto;
+	background: rgba(255,255,255,0.7);
+	padding-bottom:10px;
+}
+header{
+	font: bold 25px Tahoma, sans-serif;
+	color: #001e1b;
+	text-align:center;
+	text-shadow: 0 .5px 1px #2e8b57;
+	padding-top:10px;
+}
+h2{
+	font: italic bold 20px Verdana, sans-serif;
+	width: 655px;
+	height: 27px;
+	text-align: left;
+	padding: 5px 0 5px 35px;
+	}
+.general h2{
+	background-color: #2fa99d;
+	margin-bottom: 20px;
+}
+.education h2{
+	background-color: #32ab9f;
+}
+.experience h2{
+	background-color: #66c0b7;
+}
+.favorites h2{
+	background-color: #99d5cf;
+}
+.extra h2{
+	background-color: #cceae7;
+	margin-bottom: 5px;
+}
+.myphoto{
+	/*border-radius: 6px;*/
+	float:left;
+	padding-left:30px;
+	display:block;
+}
+.basic{
+	float:left;
+	padding-left:10px;
+}
+.cf{
+	content:' ';
+	display:table;
+	clear:both;
+}
+.basic ul{
+	list-style: none;
+	padding: 15px 0 0 10px;
+}
+p{
+	padding-left: 10px;
+}
+span{
+	font: bold 16px Tahoma, sans-serif;
+}
+.experience li{
+	list-style: none;
+}
+.favorites li {
+	list-style: square;
+}
+footer{
+	text-align: center;
+	margin-top:7px;
+}
+footer img{
+	width: 30px;
+	height: 30px;
+}
